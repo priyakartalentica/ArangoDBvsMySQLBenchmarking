@@ -1,0 +1,16 @@
+Started phase 0 (Ramp up), duration: 60s @ 17:57:29(+0530) 2020-12-14
+Report @ 17:57:39(+0530) 2020-12-14
+Elapsed time: 10 seconds
+  Scenarios launched:  299
+  Scenarios completed: 299
+  Requests completed:  299
+  Mean response/sec: 30.11
+  Response time (msec):
+    min: 2.5
+    max: 5622.9
+    median: 388.1
+    p95: 5020
+    p99: 5437.6
+  Codes:
+    500: 299
+

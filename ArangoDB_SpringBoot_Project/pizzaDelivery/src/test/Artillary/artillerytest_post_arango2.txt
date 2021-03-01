@@ -1,0 +1,282 @@
+Started phase 0 (Warm up), duration: 60s @ 12:52:55(+0530) 2020-12-15
+Report @ 12:53:05(+0530) 2020-12-15
+Elapsed time: 10 seconds
+  Scenarios launched:  299
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30.14
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:53:15(+0530) 2020-12-15
+Elapsed time: 20 seconds
+  Scenarios launched:  300
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:53:25(+0530) 2020-12-15
+Elapsed time: 30 seconds
+  Scenarios launched:  300
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:53:35(+0530) 2020-12-15
+Elapsed time: 40 seconds
+  Scenarios launched:  300
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: 
+CPU usage of Artillery seems to be very high (pids: 267895)
+which may severely affect its performance.
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:53:45(+0530) 2020-12-15
+Elapsed time: 50 seconds
+  Scenarios launched:  300
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:53:55(+0530) 2020-12-15
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  300
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:05(+0530) 2020-12-15
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  1
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:15(+0530) 2020-12-15
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:25(+0530) 2020-12-15
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:35(+0530) 2020-12-15
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:45(+0530) 2020-12-15
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:54:55(+0530) 2020-12-15
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:55:05(+0530) 2020-12-15
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 299
+
+Report @ 12:55:15(+0530) 2020-12-15
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 300
+
+Report @ 12:55:25(+0530) 2020-12-15
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 300
+
+Report @ 12:55:35(+0530) 2020-12-15
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 300
+
+Report @ 12:55:45(+0530) 2020-12-15
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 301
+
+Report @ 12:55:55(+0530) 2020-12-15
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 300
+
+Report @ 12:55:55(+0530) 2020-12-15
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+All virtual users finished
+Summary report @ 12:55:55(+0530) 2020-12-15
+  Scenarios launched:  1800
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 10
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Scenario counts:
+    Order Pizza Arango: 1800 (100%)
+  Errors:
+    ESOCKETTIMEDOUT: 1800
+

@@ -1,0 +1,14 @@
+config:
+  target: "http://104.211.166.168:7111"
+  phases:
+    - duration: 60
+      arrivalRate: 30
+      name: Ramp up
+
+
+scenarios:
+  # We define one scenario:
+  - name: "Get Order Details Arango:"
+    flow:
+      - get:
+          url: "/pizzaorder"

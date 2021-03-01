@@ -1,0 +1,392 @@
+Started phase 0 (Warm up), duration: 120s @ 12:24:10(+0530) 2020-12-15
+Report @ 12:24:20(+0530) 2020-12-15
+Elapsed time: 10 seconds
+  Scenarios launched:  599
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60.26
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: 
+CPU usage of Artillery seems to be very high (pids: 253895)
+which may severely affect its performance.
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:24:30(+0530) 2020-12-15
+Elapsed time: 20 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:24:40(+0530) 2020-12-15
+Elapsed time: 30 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:24:50(+0530) 2020-12-15
+Elapsed time: 40 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:25:00(+0530) 2020-12-15
+Elapsed time: 50 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:25:10(+0530) 2020-12-15
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:25:20(+0530) 2020-12-15
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60.12
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:25:30(+0530) 2020-12-15
+Elapsed time: 1 minute, 20 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:25:40(+0530) 2020-12-15
+Elapsed time: 1 minute, 30 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:25:50(+0530) 2020-12-15
+Elapsed time: 1 minute, 40 seconds
+  Scenarios launched:  601
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:26:00(+0530) 2020-12-15
+Elapsed time: 1 minute, 50 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Report @ 12:26:10(+0530) 2020-12-15
+Elapsed time: 2 minutes, 0 seconds
+  Scenarios launched:  600
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 60
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+
+Warning: High CPU usage warning (pids: 253895).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 12:26:20(+0530) 2020-12-15
+Elapsed time: 2 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 0.1
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 599
+
+Report @ 12:26:30(+0530) 2020-12-15
+Elapsed time: 2 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:26:40(+0530) 2020-12-15
+Elapsed time: 2 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:26:50(+0530) 2020-12-15
+Elapsed time: 2 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:00(+0530) 2020-12-15
+Elapsed time: 2 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:10(+0530) 2020-12-15
+Elapsed time: 3 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:20(+0530) 2020-12-15
+Elapsed time: 3 minutes, 10 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:30(+0530) 2020-12-15
+Elapsed time: 3 minutes, 20 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:40(+0530) 2020-12-15
+Elapsed time: 3 minutes, 30 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:27:50(+0530) 2020-12-15
+Elapsed time: 3 minutes, 40 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:28:00(+0530) 2020-12-15
+Elapsed time: 3 minutes, 50 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:28:10(+0530) 2020-12-15
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 600
+
+Report @ 12:28:10(+0530) 2020-12-15
+Elapsed time: 4 minutes, 0 seconds
+  Scenarios launched:  0
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: NaN
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ESOCKETTIMEDOUT: 1
+
+All virtual users finished
+Summary report @ 12:28:10(+0530) 2020-12-15
+  Scenarios launched:  7200
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 30
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Scenario counts:
+    Search and buy: 7200 (100%)
+  Errors:
+    ESOCKETTIMEDOUT: 7200
+

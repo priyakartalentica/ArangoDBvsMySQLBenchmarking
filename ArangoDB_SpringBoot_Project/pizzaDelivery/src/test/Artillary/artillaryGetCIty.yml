@@ -1,0 +1,36 @@
+config:
+  target: "http://104.211.166.168:7111"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: Warm up
+
+    - duration: 60
+      arrivalRate: 15
+      name: Ramp up
+
+    - duration: 60
+      arrivalRate: 30
+      name: Speed up
+
+scenarios:
+  # We define one scenario:
+  - name: "Get Order Details City wise Arango :50: Indore"
+    flow:
+      - get:
+          url: "/pizzaorder/city/Indore"
+
+  - name: "Get Order Details City wise Arango :100: Surat"
+      flow:
+        - get:
+            url: "/pizzaorder/city/Surat"
+
+  - name: "Get Order Details City wise Arango :500: Jaipur"
+      flow:
+        - get:
+            url: "/pizzaorder/city/Jaipur"
+
+  - name: "Get Order Details City wise Arango :50: Patna"
+      flow:
+        - get:
+            url: "/pizzaorder/city/Patna"

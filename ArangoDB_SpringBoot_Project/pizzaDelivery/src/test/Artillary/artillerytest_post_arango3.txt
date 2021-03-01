@@ -1,0 +1,78 @@
+Started phase 0 (Warm up), duration: 30s @ 14:19:22(+0530) 2020-12-17
+Report @ 14:19:32(+0530) 2020-12-17
+Elapsed time: 10 seconds
+  Scenarios launched:  9
+  Scenarios completed: 9
+  Requests completed:  9
+  Mean response/sec: 1.01
+  Response time (msec):
+    min: 99.1
+    max: 774.3
+    median: 132
+    p95: 774.3
+    p99: 774.3
+  Codes:
+    200: 9
+
+Report @ 14:19:42(+0530) 2020-12-17
+Elapsed time: 20 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1
+  Response time (msec):
+    min: 119.8
+    max: 195.4
+    median: 145.7
+    p95: 195.4
+    p99: 195.4
+  Codes:
+    200: 10
+
+Report @ 14:19:52(+0530) 2020-12-17
+Elapsed time: 30 seconds
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  10
+  Mean response/sec: 1
+  Response time (msec):
+    min: 106.9
+    max: 177.5
+    median: 136.5
+    p95: 177.5
+    p99: 177.5
+  Codes:
+    200: 10
+
+Report @ 14:19:53(+0530) 2020-12-17
+Elapsed time: 30 seconds
+  Scenarios launched:  1
+  Scenarios completed: 1
+  Requests completed:  1
+  Mean response/sec: 2.04
+  Response time (msec):
+    min: 118.3
+    max: 118.3
+    median: 118.3
+    p95: 118.3
+    p99: 118.3
+  Codes:
+    200: 1
+
+All virtual users finished
+Summary report @ 14:19:53(+0530) 2020-12-17
+  Scenarios launched:  30
+  Scenarios completed: 30
+  Requests completed:  30
+  Mean response/sec: 1.02
+  Response time (msec):
+    min: 99.1
+    max: 774.3
+    median: 139.1
+    p95: 212.6
+    p99: 774.3
+  Scenario counts:
+    Order Pizza Arango: 30 (100%)
+  Codes:
+    200: 30
+
