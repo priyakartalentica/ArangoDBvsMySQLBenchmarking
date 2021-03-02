@@ -1,0 +1,37 @@
+config:
+  target: "http://104.211.166.168:9898"
+  phases:
+    - duration: 60
+      arrivalRate: 5
+      name: Warm up
+
+     - duration: 60
+       arrivalRate: 15
+       name: Ramp up
+
+    - duration: 60
+      arrivalRate: 30
+      name: Speed up
+
+
+scenarios:
+  # We define one scenario:
+  - name: "Get Order Details Arango 1: 36089"
+    flow:
+      - get:
+          url: "/pizzaorder/36089"
+
+  - name: "Get Order Details Arango 2: 50488"
+      flow:
+        - get:
+            url: "/pizzaorder/50488"
+
+  - name: "Get Order Details Arango 3: 58481"
+      flow:
+        - get:
+            url: "/pizzaorder/58481"
+
+  - name: "Get Order Details Arango 4: 59339"
+      flow:
+        - get:
+            url: "/pizzaorder/59339"

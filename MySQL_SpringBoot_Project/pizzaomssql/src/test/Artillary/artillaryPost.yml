@@ -1,0 +1,80 @@
+config:
+  target: "http://localhost:9898"
+  phases:
+    - duration: 1
+      arrivalRate: 1
+      name: Warm up
+payload:
+  # Load search keywords from an external CSV file and make them available
+  # to virtual user scenarios as variable "keywords":
+  path: "orderpizza.csv"
+  fields:
+    - "mobileNo"
+    - "pizzaId"
+    - "delivaryAddress"
+    - "isDelivered"
+    - "orderTotalAmount"
+
+scenarios:
+  # We define one scenario:
+  - name: "Search and buy"
+    flow:
+      - post:
+          url: "/pizzaorder"
+          json:
+            mobileNo: "4444444444"
+            delivaryAddress: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            isDelivered: true
+            customerName: "Priya KAR Chakraborty"
+            landmark: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            city: "Hyderabad"
+            state: "State"
+            pincode: "444444"
+            foodAlergies: "milk, garlic, honey, salt, sugar,milk, garlic, honey, salt,ilk, garlic, hilk, garlic, honey, salt,oney, salt,ilk, garlic, honey, salt,ilk, garlic, honey, salt, sugarmilk, garlic, honey, salt, sugarmilk, garlic, honey, salt, sugarmilk, garlic,"
+            storeName: "Dominoz Pizza Pune xyx road Bavdhan"
+            storeAddress: "Mango"
+            storecity: "Puri"
+            storestate: "Orissa"
+            storepincode: "444444"
+            orderReference: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            customeralternatemobileNo: "5555555555"
+            orderDate: "01092020"
+            info1: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info2: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info3: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info4: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info5: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info6: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info7: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info8: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info9: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info10: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info11: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info12: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info13: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info14: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info15: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info16: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info17: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info18: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info19: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info20: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info21: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info22: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info23: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info24: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info25: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info26: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info27: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info28: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info29: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            info30: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            orderTotalAmount: 2000.0
+            orderInstruction: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+            delivaryInstuction: "Flat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, TaumatawhakatangihangakoauauotamateaturipuFlat no 16, tapi building, zambad estate, NEW sHEYA NAMGAR, no 16, tapi building, zambad estate, NEW sHEYA NAMGAR dddddddddddddddddddddeeeeeeeeeeedd"
+
+            #mobileNo: "{{ mobileNo }}"
+            #pizzaId: "{{ pizzaId }}"
+            #delivaryAddress: "{{ delivaryAddress }}"
+            #isDelivered: "{{ isDelivered }}"
+            #orderTotalAmount: "{{ orderTotalAmount }}"

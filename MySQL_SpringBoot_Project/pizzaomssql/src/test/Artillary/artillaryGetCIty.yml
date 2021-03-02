@@ -1,0 +1,16 @@
+config:
+  target: "http://localhost:9898"
+  phases:
+    - duration: 1
+      arrivalRate: 1
+      name: Warm up
+
+
+
+scenarios:
+  # We define one scenario:
+  - name: "Get Order Details City wise Arango :50: Indore"
+    flow:
+      - get:
+          url: "/pizzaorder/city/Kanpur"
+#Manali, OOTY,PUri

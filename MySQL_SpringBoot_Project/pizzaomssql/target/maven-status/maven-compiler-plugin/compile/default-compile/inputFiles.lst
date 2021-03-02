@@ -1,0 +1,11 @@
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/controller/OrderController.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/repository/OrderRepository.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/entity/Pizza.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/entity/Order.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/controller/PizzaController.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/entity/OrderDTO.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/PizzaomssqlApplication.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/service/PizzaService.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/repository/PizzaRepository.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/entity/OrderMapper.java
+/home/priyak@talentica-all.com/Documents/Priya/Projects/Cars24/POC/pizzaomssql/src/main/java/com/sql/pizzaomssql/service/OrderService.java
